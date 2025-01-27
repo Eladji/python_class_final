@@ -1,0 +1,87 @@
+name: Build Multi-Platform Textual App
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install textual pyinstaller
+
+      - name: Build with PyInstaller
+        run: |
+          pyinstaller --onefile --name=app-linux tp/tp2/main.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: app-linux
+          path: dist/app-linux
+
+  build-macos:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install textual pyinstaller
+
+      - name: Build with PyInstaller
+        run: |
+          pyinstaller --onefile --name=app-macos tp/tp2/main.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: app-macos
+          path: dist/app-macos
+
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install textual pyinstaller
+
+      - name: Build with PyInstaller
+        run: |
+          pyinstaller --onefile --name=app-windows.exe tp/tp2/main.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: app-windows
+          path: dist/app-windows.exe
+
