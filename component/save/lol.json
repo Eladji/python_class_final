@@ -1,0 +1,248 @@
+[
+    {
+        "_Fleet__name": "Galactica",
+        "_Fleet__spaceship": [
+            {
+                "_Spaceship__name": "Bayta",
+                "_Spaceship__Type": "Marchand",
+                "_Spaceship__crew": [
+                    {
+                        "_Member__first_name": "Gaal",
+                        "_Member__last_name": "Dornick",
+                        "_Member__gender": "Femme",
+                        "_Member__age": 34,
+                        "_Operator__role": {
+                            "_Role__rep_ship": true,
+                            "_Role__drive_ship": false,
+                            "_Role__role": "Technicien"
+                        },
+                        "_Operator__exp": 0
+                    },
+                    {
+                        "_Member__first_name": "Salvor",
+                        "_Member__last_name": "Hardin",
+                        "_Member__gender": "Femme",
+                        "_Member__age": 28,
+                        "_Operator__role": {
+                            "_Role__rep_ship": false,
+                            "_Role__drive_ship": false,
+                            "_Role__role": "Technicien"
+                        },
+                        "_Operator__exp": 0
+                    },
+                    {
+                        "_Member__first_name": "Hugo",
+                        "_Member__last_name": "Crast",
+                        "_Member__gender": "Homme",
+                        "_Member__age": 37,
+                        "_Operator__role": {
+                            "_Role__rep_ship": false,
+                            "_Role__drive_ship": true,
+                            "_Role__role": "Pilote"
+                        },
+                        "_Operator__exp": 0
+                    },
+                    {
+                        "_Member__first_name": "Lathan",
+                        "_Member__last_name": "Devers",
+                        "_Member__gender": "Homme",
+                        "_Member__age": 46,
+                        "_Operator__role": {
+                            "_Role__rep_ship": false,
+                            "_Role__drive_ship": false,
+                            "_Role__role": "Marchand"
+                        },
+                        "_Operator__exp": 0
+                    }
+                ],
+                "_Spaceship__state": "Opérationnel"
+            },
+            {
+                "_Spaceship__name": "Dark Nebula",
+                "_Spaceship__Type": "Guerre",
+                "_Spaceship__crew": [
+                    {
+                        "_Member__first_name": "Jagger",
+                        "_Member__last_name": "Fount",
+                        "_Member__gender": "Homme",
+                        "_Member__age": 41,
+                        "_Operator__role": {
+                            "_Role__rep_ship": false,
+                            "_Role__drive_ship": true,
+                            "_Role__role": "Pilote"
+                        },
+                        "_Operator__exp": 0
+                    },
+                    {
+                        "_Member__first_name": "Hober",
+                        "_Member__last_name": "Mallow",
+                        "_Member__gender": "Homme",
+                        "_Member__age": 52,
+                        "_Operator__role": {
+                            "_Role__rep_ship": false,
+                            "_Role__drive_ship": true,
+                            "_Role__role": "Pilote"
+                        },
+                        "_Operator__exp": 0
+                    },
+                    {
+                        "_Member__first_name": "Limmar",
+                        "_Member__last_name": "Ponyets",
+                        "_Member__gender": "Homme",
+                        "_Member__age": 43,
+                        "_Operator__role": {
+                            "_Role__rep_ship": false,
+                            "_Role__drive_ship": false,
+                            "_Role__role": "Marchand"
+                        },
+                        "_Operator__exp": 0
+                    },
+                    {
+                        "_Member__first_name": "Novi",
+                        "_Member__last_name": "Sura",
+                        "_Member__gender": "Femme",
+                        "_Member__age": 25,
+                        "_Operator__role": {
+                            "_Role__rep_ship": false,
+                            "_Role__drive_ship": false,
+                            "_Role__role": "Technicien"
+                        },
+                        "_Operator__exp": 0
+                    },
+                    {
+                        "_Member__first_name": "Tellem",
+                        "_Member__last_name": "Bond",
+                        "_Member__gender": "Homme",
+                        "_Member__age": 48,
+                        "_Mentalist__mana": 100,
+                        "_Mentalist__max_mana": 100
+                    }
+                ],
+                "_Spaceship__state": "Endommagé"
+            }
+        ]
+    },
+    {
+        "_Fleet__name": "Olympus",
+        "_Fleet__spaceship": [
+            {
+                "_Spaceship__name": "Unimara",
+                "_Spaceship__Type": "Marchand",
+                "_Spaceship__crew": [
+                    {
+                        "_Member__first_name": "Eskel",
+                        "_Member__last_name": "Gorov",
+                        "_Member__gender": "Homme",
+                        "_Member__age": 32,
+                        "_Operator__role": {
+                            "_Role__rep_ship": false,
+                            "_Role__drive_ship": false,
+                            "_Role__role": "Marchand"
+                        },
+                        "_Operator__exp": 0
+                    },
+                    {
+                        "_Member__first_name": "Bayta",
+                        "_Member__last_name": "Darell",
+                        "_Member__gender": "Femme",
+                        "_Member__age": 48,
+                        "_Operator__role": {
+                            "_Role__rep_ship": false,
+                            "_Role__drive_ship": false,
+                            "_Role__role": "Technicien"
+                        },
+                        "_Operator__exp": 0
+                    },
+                    {
+                        "_Member__first_name": "Toran",
+                        "_Member__last_name": "Darell",
+                        "_Member__gender": "Homme",
+                        "_Member__age": 52,
+                        "_Operator__role": {
+                            "_Role__rep_ship": true,
+                            "_Role__drive_ship": false,
+                            "_Role__role": "Technicien"
+                        },
+                        "_Operator__exp": 0
+                    },
+                    {
+                        "_Member__first_name": "Stora",
+                        "_Member__last_name": "Gendibal",
+                        "_Member__gender": "Femme",
+                        "_Member__age": 35,
+                        "_Operator__role": {
+                            "_Role__rep_ship": true,
+                            "_Role__drive_ship": false,
+                            "_Role__role": "Technicien"
+                        },
+                        "_Operator__exp": 0
+                    },
+                    {
+                        "_Member__first_name": "Joie",
+                        "_Member__last_name": "",
+                        "_Member__gender": "Femme",
+                        "_Member__age": 25,
+                        "_Mentalist__mana": 100,
+                        "_Mentalist__max_mana": 100
+                    }
+                ],
+                "_Spaceship__state": "Opérationnel"
+            },
+            {
+                "_Spaceship__name": "Weinis",
+                "_Spaceship__Type": "Marchand",
+                "_Spaceship__crew": [
+                    {
+                        "_Member__first_name": "Jord",
+                        "_Member__last_name": "Commasson",
+                        "_Member__gender": "Homme",
+                        "_Member__age": 53,
+                        "_Operator__role": {
+                            "_Role__rep_ship": false,
+                            "_Role__drive_ship": false,
+                            "_Role__role": "Technicien"
+                        },
+                        "_Operator__exp": 0
+                    },
+                    {
+                        "_Member__first_name": "Ebling",
+                        "_Member__last_name": "Mis",
+                        "_Member__gender": "Homme",
+                        "_Member__age": 34,
+                        "_Operator__role": {
+                            "_Role__rep_ship": false,
+                            "_Role__drive_ship": false,
+                            "_Role__role": "Technicien"
+                        },
+                        "_Operator__exp": 0
+                    },
+                    {
+                        "_Member__first_name": "Munn",
+                        "_Member__last_name": "Compor",
+                        "_Member__gender": "Homme",
+                        "_Member__age": 27,
+                        "_Operator__role": {
+                            "_Role__rep_ship": true,
+                            "_Role__drive_ship": false,
+                            "_Role__role": "Technicien"
+                        },
+                        "_Operator__exp": 0
+                    },
+                    {
+                        "_Member__first_name": "Yugo",
+                        "_Member__last_name": "Amary",
+                        "_Member__gender": "Homme",
+                        "_Member__age": 33,
+                        "_Operator__role": {
+                            "_Role__rep_ship": true,
+                            "_Role__drive_ship": false,
+                            "_Role__role": "Technicien"
+                        },
+                        "_Operator__exp": 0
+                    }
+                ],
+                "_Spaceship__state": "Endommagé"
+            }
+        ]
+    }
+]

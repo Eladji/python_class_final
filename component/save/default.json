@@ -1,0 +1,347 @@
+{
+    "Flottes": [
+        {
+            "Nom": "Galactica",
+            "Nombre de vaisseaux": 5,
+            "Commandant": "Bel Riose",
+            "Vaisseaux": [
+                {
+                    "Nom": "Bayta",
+                    "Type": "Marchand",
+                    "Etat": "Opérationnel",
+                    "Equipage": [
+                        {
+                            "Type": "operator",
+                            "Prenom": "Gaal",
+                            "Nom": "Dornick",
+                            "Sexe": "Femme",
+                            "Age": 34,
+                            "Metier": "Technicien"
+                        },
+                        {
+                            "Type": "operator",
+                            "Prenom": "Salvor",
+                            "Nom": "Hardin",
+                            "Sexe": "Femme",
+                            "Age": 28,
+                            "Metier": "Armurier"
+                        },
+                        {
+                            "Type": "operator",
+                            "Prenom": "Hugo",
+                            "Nom": "Crast",
+                            "Sexe": "Homme",
+                            "Age": 37,
+                            "Metier": "Pilote"
+                        },
+                        {
+                            "Type": "operator",
+                            "Prenom": "Lathan",
+                            "Nom": "Devers",
+                            "Sexe": "Homme",
+                            "Age": 46,
+                            "Metier": "Marchand"
+                        }
+                    ]
+                },
+                {
+                    "Nom": "Dark Nebula",
+                    "Type": "Guerre",
+                    "Etat": "Endommagé",
+                    "Equipage": [
+                        {
+                            "Type": "operator",
+                            "Prenom": "Jagger",
+                            "Nom": "Fount",
+                            "Sexe": "Homme",
+                            "Age": 41,
+                            "Metier": "Pilote"
+                        },
+                        {
+                            "Type": "operator",
+                            "Prenom": "Hober",
+                            "Nom": "Mallow",
+                            "Sexe": "Homme",
+                            "Age": 52,
+                            "Metier": "Pilote"
+                        },
+                        {
+                            "Type": "operator",
+                            "Prenom": "Limmar",
+                            "Nom": "Ponyets",
+                            "Sexe": "Homme",
+                            "Age": 43,
+                            "Metier": "Marchand"
+                        },
+                        {
+                            "Type": "operator",
+                            "Prenom": "Novi",
+                            "Nom": "Sura",
+                            "Sexe": "Femme",
+                            "Age": 25,
+                            "Metier": "Entretien"
+                        },
+                        {
+                            "Type": "mentalist",
+                            "Prenom": "Tellem",
+                            "Nom": "Bond",
+                            "Sexe": "Homme",
+                            "Age": 48,
+                            "Mana": 100
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Nom": "Olympus",
+            "Nombre de vaisseaux": 2,
+            "Commandant": "Daryl Voss",
+            "Vaisseaux": [
+                {
+                    "Nom": "Unimara",
+                    "Type": "Marchand",
+                    "Etat": "Opérationnel",
+                    "Equipage": [
+                        {
+                            "Type": "operator",
+                            "Prenom": "Eskel",
+                            "Nom": "Gorov",
+                            "Sexe": "Homme",
+                            "Age": 32,
+                            "Metier": "Marchand"
+                        },
+                        {
+                            "Type": "operator",
+                            "Prenom": "Bayta",
+                            "Nom": "Darell",
+                            "Sexe": "Femme",
+                            "Age": 48,
+                            "Metier": "Entretien"
+                        },
+                        {
+                            "Type": "operator",
+                            "Prenom": "Toran",
+                            "Nom": "Darell",
+                            "Sexe": "Homme",
+                            "Age": 52,
+                            "Metier": "Technicien"
+                        },
+                        {
+                            "Type": "operator",
+                            "Prenom": "Stora",
+                            "Nom": "Gendibal",
+                            "Sexe": "Femme",
+                            "Age": 35,
+                            "Metier": "Technicien"
+                        },
+                        {
+                            "Type": "mentalist",
+                            "Prenom": "Joie",
+                            "Nom": "",
+                            "Sexe": "Femme",
+                            "Age": 25,
+                            "Mana": 100
+                        }
+                    ]
+                },
+                {
+                    "Nom": "Weinis",
+                    "Type": "Marchand",
+                    "Etat": "Endommagé",
+                    "Equipage": [
+                        {
+                            "Type": "operator",
+                            "Prenom": "Jord",
+                            "Nom": "Commasson",
+                            "Sexe": "Homme",
+                            "Age": 53,
+                            "Metier": "Entretien"
+                        },
+                        {
+                            "Type": "operator",
+                            "Prenom": "Ebling",
+                            "Nom": "Mis",
+                            "Sexe": "Homme",
+                            "Age": 34,
+                            "Metier": "Entretien"
+                        },
+                        {
+                            "Type": "operator",
+                            "Prenom": "Munn",
+                            "Nom": "Compor",
+                            "Sexe": "Homme",
+                            "Age": 27,
+                            "Metier": "Technicien"
+                        },
+                        {
+                            "Type": "operator",
+                            "Prenom": "Yugo",
+                            "Nom": "Amary",
+                            "Sexe": "Homme",
+                            "Age": 33,
+                            "Metier": "Technicien"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Nom": "Erebus",
+            "Nombre de vaisseaux": 3,
+            "Commandant": "Lyra Solon",
+            "Vaisseaux": [
+                {
+                    "Nom": "Nightfall",
+                    "Type": "Exploration",
+                    "Etat": "Opérationnel",
+                    "Equipage": [
+                        {
+                            "Type": "operator",
+                            "Prenom": "Zane",
+                            "Nom": "Korben",
+                            "Sexe": "Homme",
+                            "Age": 30,
+                            "Metier": "Technicien"
+                        },
+                        {
+                            "Type": "operator",
+                            "Prenom": "Mira",
+                            "Nom": "Taylon",
+                            "Sexe": "Femme",
+                            "Age": 27,
+                            "Metier": "Pilote"
+                        }
+                    ]
+                },
+                {
+                    "Nom": "Dusk",
+                    "Type": "Transport",
+                    "Etat": "Endommagé",
+                    "Equipage": [
+                        {
+                            "Type": "operator",
+                            "Prenom": "Raynor",
+                            "Nom": "Frost",
+                            "Sexe": "Homme",
+                            "Age": 45,
+                            "Metier": "Marchand"
+                        }
+                    ]
+                },
+                {
+                    "Nom": "Aurora",
+                    "Type": "Transport",
+                    "Etat": "Opérationnel",
+                    "Equipage": [
+                        {
+                            "Type": "operator",
+                            "Prenom": "Vera",
+                            "Nom": "Hale",
+                            "Sexe": "Femme",
+                            "Age": 36,
+                            "Metier": "Entretien"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Nom": "Aegis",
+            "Nombre de vaisseaux": 1,
+            "Commandant": "Maxim Tarus",
+            "Vaisseaux": [
+                {
+                    "Nom": "Protector",
+                    "Type": "Guerre",
+                    "Etat": "Opérationnel",
+                    "Equipage": [
+                        {
+                            "Type": "operator",
+                            "Prenom": "Ethan",
+                            "Nom": "Drake",
+                            "Sexe": "Homme",
+                            "Age": 42,
+                            "Metier": "Pilote"
+                        },
+                        {
+                            "Type": "operator",
+                            "Prenom": "Lila",
+                            "Nom": "Voss",
+                            "Sexe": "Femme",
+                            "Age": 38,
+                            "Metier": "Technicien"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Nom": "Zenith",
+            "Nombre de vaisseaux": 4,
+            "Commandant": "Elara Vyn",
+            "Vaisseaux": [
+                {
+                    "Nom": "Starfire",
+                    "Type": "Exploration",
+                    "Etat": "Opérationnel",
+                    "Equipage": [
+                        {
+                            "Type": "operator",
+                            "Prenom": "Kai",
+                            "Nom": "Orion",
+                            "Sexe": "Homme",
+                            "Age": 29,
+                            "Metier": "Pilote"
+                        }
+                    ]
+                },
+                {
+                    "Nom": "Lunar",
+                    "Type": "Transport",
+                    "Etat": "Endommagé",
+                    "Equipage": [
+                        {
+                            "Type": "operator",
+                            "Prenom": "Sienna",
+                            "Nom": "Vale",
+                            "Sexe": "Femme",
+                            "Age": 35,
+                            "Metier": "Marchand"
+                        }
+                    ]
+                },
+                {
+                    "Nom": "Solaris",
+                    "Type": "Transport",
+                    "Etat": "Opérationnel",
+                    "Equipage": [
+                        {
+                            "Type": "operator",
+                            "Prenom": "Theo",
+                            "Nom": "Ray",
+                            "Sexe": "Homme",
+                            "Age": 40,
+                            "Metier": "Entretien"
+                        }
+                    ]
+                },
+                {
+                    "Nom": "Comet",
+                    "Type": "Guerre",
+                    "Etat": "Opérationnel",
+                    "Equipage": [
+                        {
+                            "Type": "operator",
+                            "Prenom": "Aria",
+                            "Nom": "Nova",
+                            "Sexe": "Femme",
+                            "Age": 32,
+                            "Metier": "Armurier"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

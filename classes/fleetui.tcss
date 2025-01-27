@@ -1,0 +1,57 @@
+#fleetui{
+    width: 100%;
+    height: 100%;
+    padding: 1;
+    margin: 3;
+    
+    content-align: center middle;
+}
+Fleetui{
+    content-align: center middle;
+}
+.buttons{
+    width: 100%;
+    height: auto;
+    padding: 1;
+    margin: 3;
+    
+    content-align: center middle;
+}
+.text{
+    width: 100%;
+    height: auto;
+    padding: 1;
+    margin: 3;
+    
+    content-align: center middle;
+}
+.textstat{
+    width: 100%;
+    height: auto;
+    padding: 1;
+    margin: 3;
+    
+    content-align: center middle;
+}
+#stat{
+    content-align: left middle;
+}
+#ship{
+    content-align: right middle;
+}
+.buttonsscreen{
+    width: 50%;
+    height: auto;
+    padding: 1;
+    margin: 3;
+    
+    content-align: right middle;
+}
+#member{
+    width: 100%;
+    height: auto;
+    padding: 1;
+    margin: 3;
+    
+    content-align: center middle;
+}
