@@ -25,7 +25,7 @@ jobs:
 
       - name: Build with PyInstaller
         run: |
-          pyinstaller --onefile --name=app-linux main.py
+          pyinstaller --onefile --add-data "classes:classes" --name=app-linux main.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
@@ -51,7 +51,7 @@ jobs:
 
       - name: Build with PyInstaller
         run: |
-          pyinstaller --onefile --name=app-macos main.py
+          pyinstaller --onefile --add-data "classes:classes" --name=app-macos main.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
@@ -77,7 +77,7 @@ jobs:
 
       - name: Build with PyInstaller
         run: |
-          pyinstaller --onefile --name=app-windows.exe main.py
+          pyinstaller --onefile --add-data "classes:classes" --name=app-windows.exe main.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
